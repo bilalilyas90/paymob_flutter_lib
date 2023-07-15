@@ -170,10 +170,10 @@ public class PaymobFlutterLibPlugin implements FlutterPlugin, MethodCallHandler,
   }
 
   public boolean onActivityResult(int requestCode, int resultCode, Intent data) {
-    Bundle extras = data.getExtras();
-
+    
     if (requestCode == ACCEPT_PAYMENT_REQUEST) {
-
+      
+      Bundle extras = data.getExtras();
       if (resultCode == IntentConstants.USER_CANCELED) {
         // User canceled and did no payment request was fired
         finishWithError("USER_CANCELED", "User canceled!!!", null);
