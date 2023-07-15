@@ -25,3 +25,8 @@
 
 * Bugs solved for IOS.
 * Updated Readme.md file.
+
+## 1.0.6
+
+* Bugs solved related to activityOnResult android.
+* Updated Readme.md file.
