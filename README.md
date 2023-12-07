@@ -8,7 +8,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  paymob_flutter_lib: ^1.0.6
+  paymob_flutter_lib: ^1.0.7
 ```
 
 ## Android

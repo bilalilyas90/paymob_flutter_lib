@@ -30,3 +30,8 @@
 
 * Bugs solved related to activityOnResult android.
 * Updated Readme.md file.
+
+## 1.0.7
+
+* Bugs solved related to icon issue on android devices.
+* Updated Readme.md file.
